@@ -86,12 +86,12 @@
 <section class="trailer" id="trailer" aria-labelledby="trailer-title">
   <h2 class="visually-hidden" id="trailer-title">Trailer</h2>
 <!--BUILD:TRAILER-->
-  <!-- PLACEHOLDER: no trailer yet. Run build_site.py again after TE-DEMO saves the trailer MP4,
-       or put the YouTube video id in site/site_config.json ("youtube_id"). -->
   <div class="frame">
-    <div class="video video--soon">
-      <img src="assets/shots/shot_01.jpg" width="1600" height="900" alt="" loading="lazy">
-      <p class="video__soon"><span>Gameplay trailer coming soon</span></p>
+    <div class="video">
+      <video controls preload="none" playsinline poster="assets/video/trailer_poster.jpg" aria-label="Toy Quarter trailer">
+        <source src="assets/video/trailer.mp4" type="video/mp4">
+        <a href="assets/video/trailer.mp4">Download the trailer (MP4)</a>
+      </video>
     </div>
   </div>
 <!--/BUILD:TRAILER-->
@@ -167,35 +167,29 @@
     <h2 class="ribbon ribbon--center" id="shots-title"><span>Screenshots</span></h2>
     <ul class="gallery">
 <!--BUILD:GALLERY-->
-      <!-- INTERIM still - replaced when the ToyQuarter_* stills exist -->
       <li><figure class="shot">
         <a href="assets/shots/shot_01.jpg" data-lightbox data-caption="Your toy shop on a corner of a busy town"><img src="assets/shots/shot_01_thumb.webp" width="800" height="450" alt="Your toy shop on a corner of a busy town" loading="lazy"></a>
         <figcaption>Your toy shop on a corner of a busy town</figcaption>
       </figure></li>
-      <!-- INTERIM still - replaced when the ToyQuarter_* stills exist -->
       <li><figure class="shot">
         <a href="assets/shots/shot_02.jpg" data-lightbox data-caption="Workers build toys at the bench, four at a time"><img src="assets/shots/shot_02_thumb.webp" width="800" height="450" alt="Workers build toys at the bench, four at a time" loading="lazy"></a>
         <figcaption>Workers build toys at the bench, four at a time</figcaption>
       </figure></li>
-      <!-- INTERIM still - replaced when the ToyQuarter_* stills exist -->
       <li><figure class="shot">
-        <a href="assets/shots/shot_03.jpg" data-lightbox data-caption="A busy shop - every toy on the shelves was made in the back"><img src="assets/shots/shot_03_thumb.webp" width="800" height="450" alt="A busy shop - every toy on the shelves was made in the back" loading="lazy"></a>
-        <figcaption>A busy shop - every toy on the shelves was made in the back</figcaption>
-      </figure></li>
-      <!-- INTERIM still - replaced when the ToyQuarter_* stills exist -->
-      <li><figure class="shot">
-        <a href="assets/shots/shot_04.jpg" data-lightbox data-caption="Every level-up: choose one of two new toys"><img src="assets/shots/shot_04_thumb.webp" width="800" height="450" alt="Every level-up: choose one of two new toys" loading="lazy"></a>
+        <a href="assets/shots/shot_03.jpg" data-lightbox data-caption="Every level-up: choose one of two new toys"><img src="assets/shots/shot_03_thumb.webp" width="800" height="450" alt="Every level-up: choose one of two new toys" loading="lazy"></a>
         <figcaption>Every level-up: choose one of two new toys</figcaption>
       </figure></li>
-      <!-- INTERIM still - replaced when the ToyQuarter_* stills exist -->
       <li><figure class="shot">
-        <a href="assets/shots/shot_05.jpg" data-lightbox data-caption="Build mode: place benches, shelves and rooms on the grid"><img src="assets/shots/shot_05_thumb.webp" width="800" height="450" alt="Build mode: place benches, shelves and rooms on the grid" loading="lazy"></a>
+        <a href="assets/shots/shot_04.jpg" data-lightbox data-caption="Build mode: place benches, shelves and rooms on the grid"><img src="assets/shots/shot_04_thumb.webp" width="800" height="450" alt="Build mode: place benches, shelves and rooms on the grid" loading="lazy"></a>
         <figcaption>Build mode: place benches, shelves and rooms on the grid</figcaption>
       </figure></li>
-      <!-- INTERIM still - replaced when the ToyQuarter_* stills exist -->
       <li><figure class="shot">
-        <a href="assets/shots/shot_06.jpg" data-lightbox data-caption="Make the shop bigger and open new sites across the district"><img src="assets/shots/shot_06_thumb.webp" width="800" height="450" alt="Make the shop bigger and open new sites across the district" loading="lazy"></a>
+        <a href="assets/shots/shot_05.jpg" data-lightbox data-caption="Make the shop bigger and open new sites across the district"><img src="assets/shots/shot_05_thumb.webp" width="800" height="450" alt="Make the shop bigger and open new sites across the district" loading="lazy"></a>
         <figcaption>Make the shop bigger and open new sites across the district</figcaption>
+      </figure></li>
+      <li><figure class="shot">
+        <a href="assets/shots/shot_06.jpg" data-lightbox data-caption="Grow into a district of shops"><img src="assets/shots/shot_06_thumb.webp" width="800" height="450" alt="Grow into a district of shops" loading="lazy"></a>
+        <figcaption>Grow into a district of shops</figcaption>
       </figure></li>
 <!--/BUILD:GALLERY-->
     </ul>
